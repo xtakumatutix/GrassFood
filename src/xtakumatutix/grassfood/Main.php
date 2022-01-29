@@ -30,7 +30,7 @@ class Main extends PluginBase implements Listener {
                 $this->sendSound($player);
             } else {
                 $player->sendPopup("§a草ｳﾒｪwwwwww");
-                $player->getHungerManager()->addFood(3);
+                $player->getHungerManager()->addFood(1);
                 $this->sendSound($player);
             }
         }
